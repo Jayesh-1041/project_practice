@@ -1,0 +1,950 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: #ffffff;
+  }
+  
+  .top-header {
+    padding: 10px 50px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .welcome-text {
+    color: #666666;
+  }
+  
+  .top-header-options {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .top-header-option {
+    color: #666666;
+  }
+  
+  .fa-solid.fa-location-dot,
+  .fa-solid.fa-truck,
+  .fa-solid.fa-money-bill {
+    color: #0086c9;
+  }
+  
+  .search-bar {
+    width: 500px;
+    background-color: #f2f9fb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: #666666;
+    border-radius: 10px;
+  }
+
+  .fa-solid.fa-magnifying-glass {
+    color: #0086c9;
+    margin-right: 10px;
+  }
+  
+  .main-header {
+    padding: 0 50px;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .fa-square-poll-horizontal,
+  .fa-bars,.fa-user,
+  .fa-cart-plus{
+    color: #0086c9;
+  }
+
+  hr{
+    border: 1px solid #f5f5f5;
+  }
+
+  
+  .Megamart  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+  }
+
+  .sign-in-signup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .bottom-header {
+    padding: 0 50px;
+    height: 30px;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  #select1 {
+    background-color: #0086c9;
+    border-radius: 40px;
+    color: white;
+  }
+
+  #select{
+    background-color: #f5f5f5;
+    border-radius: 40px;
+  }
+
+
+  .main {
+    position: relative;
+    height: 250px;
+    margin: 20px 50px;
+    display: flex;
+    border-radius: 20px;
+    background-color: #5f747e;
+  }
+
+  .icon1 {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #ecf2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: #0086c9;
+    position: absolute;
+    left: 1170px;
+    top: 90px;
+    
+  }
+
+  .icon2 {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #ecf2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: #0086c9;
+    position: absolute;
+    top: 90px;
+    left: -30px;
+  } 
+
+  .ellips {
+    position: absolute;
+    display: flex;
+    font-weight: 900;
+    color: white;
+    font-size: 30px;
+    top: 180px;
+    left: 100px;
+
+  }
+
+  .tex-watch {
+    position: absolute;
+    left: 90px;
+    top: 35px;
+    font-size: 20px;
+    color: white;
+
+  }
+
+  .image-watch {
+    margin: 20px 0px 0px 850px;
+  
+  }
+
+  .smartphones{
+    margin: 100px 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .text{
+    font-weight: 800;
+    font-size: large;
+    color: #5f747e;
+  }
+
+  span{
+    color: #0086c9;
+  }
+
+  .view{;
+    color: #5f747e;
+    font-weight: 600;
+    font-size: large;
+  }
+  hr{
+    margin: 10px 50px;
+  }
+
+  .phone-card{
+    margin: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card1{
+    height: 300px;
+    width: 200px;
+    border-radius: 24px;
+    border: 1px solid red;
+    background-color: #ffffff;
+
+  }
+  .card11{
+    position: relative;
+    display: flex;
+    height: 170px;
+    width: 197px;
+    background-color: #ebf2f5;
+    border-radius: 24px 24px 0px 0px;
+  }
+  .img1{
+    height: 150px;
+    width: 100px;
+    margin: 10px 0px 0px 45px;
+  }
+  .offer{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: #0086c9;
+    font-weight: 600;
+    border: 1px solid red;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    text-align: center;
+    padding: 3px;
+    left: 148px;
+
+  }
+  .price{
+    margin: 10px 0px 0px 20px;
+  }
+
+  .card2{
+    height: 300px;
+    width: 200px;
+    border-radius: 24px;
+    border: 1px solid rgba(221, 203, 203, 0.582);
+    background-color: #ffffff;
+
+  }
+  .card22{
+    position: relative;
+    display: flex;
+    height: 170px;
+    width: 197px;
+    background-color: #ebf2f5;
+    border-radius: 24px 24px 0px 0px;
+  }
+  .img2{
+    height: 150px;
+    width: 110px;
+    margin: 10px 0px 0px 30px;
+  }
+  .offer{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: #0086c9;
+    font-weight: 600;
+    border: 1px solid red;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    text-align: center;
+    padding: 3px;
+    left: 148px;
+
+  }
+  .price{
+    margin: 10px 0px 0px 20px;
+  }
+
+  .card3{
+    height: 300px;
+    width: 200px;
+    border-radius: 24px;
+    border: 1px solid rgba(221, 203, 203, 0.582);
+    background-color: #ffffff;
+
+  }
+  .card33{
+    position: relative;
+    display: flex;
+    height: 170px;
+    width: 197px;
+    background-color: #ebf2f5;
+    border-radius: 24px 24px 0px 0px;
+  }
+  .img3{
+    height: 150px;
+    width: 110px;
+    margin: 10px 0px 0px 30px;
+  }
+  .offer{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: #0086c9;
+    font-weight: 600;
+    border: 1px solid red;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    text-align: center;
+    padding: 3px;
+    left: 148px;
+
+  }
+  .price{
+    margin: 10px 0px 0px 20px;
+  }
+
+  .card4{
+    height: 300px;
+    width: 200px;
+    border-radius: 24px;
+    border: 1px solid rgba(221, 203, 203, 0.582);
+    background-color: #ffffff;
+
+  }
+  .card44{
+    position: relative;
+    display: flex;
+    height: 170px;
+    width: 197px;
+    background-color: #ebf2f5;
+    border-radius: 24px 24px 0px 0px;
+  }
+  .img4{
+    height: 150px;
+    width: 110px;
+    margin: 10px 0px 0px 30px;
+  }
+  .offer{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: #0086c9;
+    font-weight: 600;
+    border: 1px solid red;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    text-align: center;
+    padding: 3px;
+    left: 148px;
+
+  }
+  .price{
+    margin: 10px 0px 0px 20px;
+  }
+
+  .card5{
+    height: 300px;
+    width: 200px;
+    border-radius: 24px;
+    border: 1px solid rgba(221, 203, 203, 0.582);
+    background-color: #ffffff;
+
+  }
+  .card55{
+    position: relative;
+    display: flex;
+    height: 170px;
+    width: 197px;
+    background-color: #ebf2f5;
+    border-radius: 24px 24px 0px 0px;
+  }
+  .img5{
+    height: 150px;
+    width: 110px;
+    margin: 10px 0px 0px 30px;
+  }
+  .offer{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: #0086c9;
+    font-weight: 600;
+    border: 1px solid red;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    text-align: center;
+    padding: 3px;
+    left: 148px;
+
+  }
+  .price{
+    margin: 10px 0px 0px 20px;
+  }
+
+  .card1:hover{
+     transform: rotate(45deg) ;
+  }
+
+  .shop-categories{
+    margin: 100px 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .shop {
+    margin: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .component{
+    height: 175px;
+    width: 133px;
+    /* border: 1px solid red; */
+  }
+
+  .component1 {  
+    height: 130px;
+    width: 130px;
+    background-color: #e7eef1f1;
+    border: 1px solid red;
+    border-radius: 50%;
+  }
+
+  .component11{
+    height: 90px;
+    width: 90px;
+    margin: 15px 0px 0px 18px;
+  }
+
+  .component2 {  
+    height: 130px;
+    width: 130px;
+    background-color: #e7eef1f1;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+  }
+
+  .component22{
+    height: 80px;
+    border-radius: 50%;
+    width: 80px;
+    
+    margin: 25px 0px 0px 25px;
+  }
+
+  .component3 {  
+    height: 130px;
+    width: 130px;
+    background-color: #e7eef1f1;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+  }
+
+  .component33{
+    height: 80px;
+    width: 80px;
+    margin: 25px 0px 0px 25px;
+  }
+
+  .component4 {  
+    height: 130px;
+    width: 130px;
+    background-color: #e7eef1f1;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+  }
+
+  .component44{
+    height: 90px;
+    width: 90px;
+    margin: 15px 0px 0px 18px;
+  }
+
+  .component5 {  
+    height: 130px;
+    width: 130px;
+    background-color: #e7eef1f1;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+  }
+
+  .component55{
+    height: 90px;
+    width: 90px;
+    margin: 15px 0px 0px 18px;
+    
+  }
+
+  .component6 {  
+    height: 130px;
+    width: 130px;
+    background-color: #e7eef1f1;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+  }
+
+  .component66{
+    height: 80px;
+    width: 80px;
+    margin: 25px 0px 0px 25px;
+  }
+
+  .component7 {  
+    height: 130px;
+    width: 130px;
+    background-color: #e7eef1f1;
+    border: 1px solid red;
+    border-radius: 50%;
+  }
+
+  .component77{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 25px 0px 0px 25px;
+  }
+
+  .electronics-brand {
+    margin: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .brand1{
+    height: 200px;
+    width: 390px;
+    background-color: dimgray;
+    border: 1px solid red;
+    border-radius: 20px;
+  }
+
+  .apple1{
+    height: 35px;
+    width: 90px;
+    background-color: rgb(170, 162, 152);
+    border: 1px solid rgb(131, 13, 13);
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+    padding: 9px;
+    margin: 20px;
+  }
+
+  .fa-apple{
+    height: 50px;
+    width: 50px;
+    background-color: #ebf2f5;
+    border-radius: 10px;
+    margin: 0px 0px 20px 20px;
+    padding: 0px 0px 5px 5px;
+    font-size: 50px;
+  }
+
+  .apple-price{
+    margin: 10px 0px 0px 20px ;
+    color: white;
+  }
+
+  .iphone1{
+    height: 180px;
+    width: 100px;
+    margin: -200px 0px 0px 235px;
+  }
+
+  .brand2{
+    height: 200px;
+    width: 390px;
+    background-color: rgb(245, 182, 182);
+    border: 1px solid red;
+    border-radius: 20px;
+  }
+
+  .apple2{
+    height: 35px;
+    width: 90px;
+    background-color: rgb(170, 127, 75);
+    border: 1px solid rgb(131, 13, 13);
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+    padding: 9px;
+    margin: 20px;
+  }
+
+  .realme{
+    height: 35px;
+    width: 110px;
+    background-color: #1ea329;
+    border-radius: 10px;
+    margin: 0px 0px 20px 20px;
+    padding: 0px 0px 5px 5px;
+    font-size: 30px;
+    color: white;
+  }
+
+  .apple-price{
+    margin: 10px 0px 0px 20px ;
+    color: white;
+  }
+
+  .iphone2{
+    height: 180px;
+    width: 150px;
+    margin: -140px 0px 0px 235px;
+  }
+
+  .brand3{
+    height: 200px;
+    width: 390px;
+    background-color: rgb(233, 198, 198);
+    border: 1px solid red;
+    border-radius: 20px;
+  }
+
+  .apple3{
+    height: 35px;
+    width: 90px;
+    background-color: rgb(199, 166, 127);
+    border: 1px solid rgb(131, 13, 13);
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+    padding: 9px;
+    margin: 20px;
+  }
+
+  .MI{
+    height: 50px;
+    width: 50px;
+    background-color: #a89c2a;
+    border-radius: 10px;
+    margin: 0px 0px 20px 20px;
+    padding: 0px 0px 5px 5px;
+    font-size: 35px;
+    color: white;
+  }
+
+  .apple-price{
+    margin: 10px 0px 0px 20px ;
+    color: white;
+  }
+
+  .iphone3{
+    height: 180px;
+    width: 150px;
+    margin: -160px 0px 0px 220px;
+  }
+
+  .Daily-use{
+    margin: 20px 50px 100px 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .fru{
+    height:240px ;
+    width: 170px;
+    /* border: 1px solid red; */
+    
+  }
+
+  .fruit1{
+    height: 170px;
+    width: 170px;
+    background-color:#e7eef1f1 ;
+    border: 1px solid red;
+    border-radius: 20px;
+  }
+  .fruit11{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 50%;
+  }
+
+  .fruit_text1{
+    margin: 20px 0px 0px 10px;
+  }
+
+  .fruit2{
+    height: 170px;
+    width: 170px;
+    background-color:#e7eef1f1 ;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+  }
+  .fruit22{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 50%;
+  }
+
+  .fruit_text2{
+    margin: 20px 0px 0px 25px;
+  }
+
+  .fruit3{
+    height: 170px;
+    width: 170px;
+    background-color:#e7eef1f1 ;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+  }
+  .fruit33{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 50%;
+  }
+
+  .fruit_text3{
+    margin: 20px 0px 0px 45px;
+  }
+
+  .fruit4{
+    height: 170px;
+    width: 170px;
+    background-color:#e7eef1f1 ;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+  }
+  .fruit44{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 50%;
+  }
+
+  .fruit_text4{
+    margin: 20px 0px 0px 30px;
+  }
+
+  .fruit5{
+    height: 170px;
+    width: 170px;
+    background-color:#e7eef1f1 ;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+  }
+  .fruit55{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 50%;
+  }
+
+  .fruit_text5{
+    margin: 20px 0px 0px 45px;
+  }
+  
+  .fruit6{
+    height: 170px;
+    width: 170px;
+    background-color:#e7eef1f1 ;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+  }
+  .fruit66{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 50%;
+  }
+
+  .fruit_text6{
+    margin: 20px 0px 0px 40px;
+  }
+
+  .footer{
+    height: 600px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-color: #6cb1d3ce;
+    
+  }
+
+  .main_footer{
+    position: absolute;
+    /* top: 70px; */
+    margin:100px 50px ;
+    color: white;
+    
+  }
+
+  .app_store{
+    height: 60px;
+    width: 220px;
+    position: relative;
+    margin: 400px 0px 0px 50px;
+    padding: 10px;
+    background-color: burlywood;
+    border-radius: 3px solid red;
+    
+
+  }
+
+  .icon_store{
+    position: absolute;
+    color: #1ea329;
+    
+  }
+
+  .download{
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+  }
+
+  .app{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .google_play{
+    position: relative;
+    display: flex;
+    height: 60px;
+    width: 220px;
+    top: 400px;
+    left: 20px;
+    background-color: burlywood;
+    border-radius: 3px solid red;
+    
+  }
+
+  .play{
+    position: absolute;
+    font-size: 50px;
+    left: 10px;
+    top: 2px;
+
+  }
+
+  .get{
+    position: absolute;
+    left: 100px;
+    top: 10px;
+  }
+
+  .play2{
+    position: absolute;
+    top: 25px;
+    left: 75px;
+  }
+
+  .most_popular{
+    position: relative;
+    top: 100px;
+    left: 80px;
+    height: 400px;
+    width: 250px;
+    color: white;
+    /* background-color: #0086c9; */
+    /* border: 1px solid red; */
+  }
+
+  .hr{
+    position: absolute;
+    width: 220px;
+    right: -22px;
+    
+  }
+
+  .list_item{
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+
+  }
+
+  .customer_services{
+    height: 300px;
+    width: 250px;
+    position: relative;
+    /* background-color: #0086c9; */
+    /* border: 1px solid red; */
+    color: white;
+    top: 100px;
+    left: 120px;
+  }
+
+  .hr2{
+    position: absolute;
+    width: 200px;
+    right: -2px;
+  }
+
+  .customer{
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+    
+  }
+
+  .hr_botoom{
+    position: absolute;
+    width: 1200px;
+    top: 520px;
+    left: 0px;
+  }
+
+  .botoom_all_right{
+    position: absolute;
+    color: white;
+    top: 540px;
+    left: 500px;
+  }
+
+  
+
+
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+
+
+
